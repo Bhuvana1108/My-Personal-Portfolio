@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  overflow-x: hidden;
+  font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:600px){
+  .myInfo{
+    font-size: 15px;
+  }
+
+  .myImage{
+    width:30vh;
+  }
+}
+
+
+
+div{
+  background-color: black !important;
+}
+
+/* Home Page */
+
+#logo{
+  height:80px;
+  width: 70px;
+}
+
+
+/*Navigation-menu*/
+.nav-menu{
+  background-color: #070F2B;
+  height:60px;
+  display:flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav-menu a{
+  text-decoration: none;
+  color:#F9F5F6;
+  font-family: "Poppins", sans-serif;
+  padding:0 30px 0 50px;
+  font-size: 13pt;
+  width: auto;
+}
+
+.nav-menu a:hover{
+  color:#ECF9FF;
+  cursor:pointer;
+}
+
+/* Home-background*/
+
+.home-page{
+  background-color: black !important;
+  width:auto;
+  color:#F9F5F6;
+}
+
+/*Image*/
+.myImage{
+  width:70vh;
+  margin: 0 100px;
+  float:right;
+  position:relative;
+
+
+}
+
+.myInfo{
+  position:absolute;
+  margin:200px;
+  max-width: auto;
+  display:inline-block;
+}
+
+.myInfo p{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: 
+    typing 2.5s steps(100),
+    blink-caret .75s step-end infinite;
+}
+
+.myInfo h2{
+  font-weight: bold;
+  font-size: 30pt;
+  
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+.button-cv{
+  margin:380px 280px;
+  text-align: center;
+  padding:10px;
+  display:flex;
+  font-weight: bolder;
+  border: 1px solid #F9F5F6;
+  border-radius:20px;
+}
+
+#download-img{
+  padding-left:5px;
+  width:18px;
+}
+
+.contact-section{
+  width:100%;
+  height:auto;
+  padding:20px;
+}
+
+.contact-section h2{
+  color:white;
+  text-align: center;
+  font-size:30px;
+}
+
+.Icons{
+  display:flex;
+  justify-content: space-around;
+  padding:10px;
+  margin:0 550px;
+}
+
+.Icons img{
+  border:1px solid azure;
+  border-radius:60px;
+  cursor:pointer;
+}
+
+.Icons img:hover{
+ background-color:mintcream;
+ zoom:1.2;
+}
+
+#myMail{
+  text-align:center;
+  margin-left:530px;
+  margin-top:-40px;
+}
