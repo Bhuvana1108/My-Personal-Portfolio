@@ -6,17 +6,19 @@
   font-family: "Noto Sans", sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 
-@media screen and (min-width:600px){
+/*@media screen and (min-width:600px){
   .myInfo{
     font-size: 15px;
+    margin-left:20px;
   }
 
   .myImage{
     width:30vh;
   }
-}
+}*/
 
 
 
@@ -39,15 +41,16 @@ div{
   display:flex;
   justify-content: end;
   align-items: center;
+  width:100%;
 }
 
 .nav-menu a{
   text-decoration: none;
   color:#F9F5F6;
   font-family: "Poppins", sans-serif;
-  padding:0 30px 0 50px;
+  padding:0 50px 0 50px;
   font-size: 13pt;
-  width: auto;
+  max-width: auto;
 }
 
 .nav-menu a:hover{
@@ -65,24 +68,24 @@ div{
 
 /*Image*/
 .myImage{
-  width:70vh;
-  margin: 0 100px;
+  width:50vh;
+  display:flex;
+  justify-content: center;
   float:right;
-  position:relative;
-
-
+  margin:0px 200px;
+  flex-direction: column-reverse;
+  
 }
 
+
 .myInfo{
-  position:absolute;
-  margin:200px;
-  max-width: auto;
-  display:inline-block;
+  margin:150px 150px;
+  display:flex;
+  flex-direction: column;
 }
 
 .myInfo p{
   overflow: hidden;
-  white-space: nowrap;
   animation: 
     typing 2.5s steps(100),
     blink-caret .75s step-end infinite;
@@ -91,6 +94,7 @@ div{
 .myInfo h2{
   font-weight: bold;
   font-size: 30pt;
+  padding:10px;
   
 }
 
@@ -102,10 +106,10 @@ div{
 
 
 .button-cv{
-  margin:380px 280px;
+  margin:40px 50px;
   text-align: center;
+  width:150px;
   padding:10px;
-  display:flex;
   font-weight: bolder;
   border: 1px solid #F9F5F6;
   border-radius:20px;
