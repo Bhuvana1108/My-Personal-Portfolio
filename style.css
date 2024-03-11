@@ -48,7 +48,7 @@ div{
   text-decoration: none;
   color:#F9F5F6;
   font-family: "Poppins", sans-serif;
-  padding:0 50px 0 50px;
+  padding:0 30px 0 30px;
   font-size: 13pt;
   max-width: auto;
 }
@@ -72,16 +72,18 @@ div{
   display:flex;
   justify-content: center;
   float:right;
-  margin:0px 200px;
+  margin:0px 80px;
   flex-direction: column-reverse;
   
 }
 
 
 .myInfo{
-  margin:150px 150px;
+  margin:150px 80px;
   display:flex;
   flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
 .myInfo p{
@@ -106,7 +108,7 @@ div{
 
 
 .button-cv{
-  margin:40px 50px;
+  margin: 40px auto;
   text-align: center;
   width:150px;
   padding:10px;
