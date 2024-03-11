@@ -9,7 +9,7 @@
     box-sizing:border-box;
 }
 
-/*@media screen and (min-width:600px){
+@media screen and (min-width:600px){
   .myInfo{
     font-size: 15px;
     margin-left:20px;
@@ -18,7 +18,7 @@
   .myImage{
     width:30vh;
   }
-}*/
+}
 
 
 
@@ -91,19 +91,19 @@ div{
   animation: 
     typing 2.5s steps(100),
     blink-caret .75s step-end infinite;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .myInfo h2{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 50px;
   padding:10px;
   
 }
 
 
 @keyframes typing {
-  from { width: 300px }
+  from { width: 700px }
   to { width: 100% }
 }
 
