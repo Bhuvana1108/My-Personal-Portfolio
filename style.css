@@ -131,21 +131,25 @@ div{
 
 .contact-section h2{
   color:white;
-  text-align: center;
-  font-size:30px;
+  margin: 10px 200px;
+  font-size:40px;
 }
 
 .Icons{
+  margin:50px 100px;
+  text-align: center;
   display:flex;
+  justify-content:flex-start;
   justify-content: space-around;
-  padding:10px;
-  margin:0 550px;
+  
+  
 }
 
 .Icons img{
   border:1px solid azure;
   border-radius:60px;
   cursor:pointer;
+
 }
 
 .Icons img:hover{
@@ -153,8 +157,4 @@ div{
  zoom:1.2;
 }
 
-#myMail{
-  text-align:center;
-  margin-left:530px;
-  margin-top:-40px;
-}
+
