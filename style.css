@@ -91,18 +91,19 @@ div{
   animation: 
     typing 2.5s steps(100),
     blink-caret .75s step-end infinite;
+    font-size: 20px;
 }
 
 .myInfo h2{
   font-weight: bold;
-  font-size: 30pt;
+  font-size: 40px;
   padding:10px;
   
 }
 
 
 @keyframes typing {
-  from { width: 0 }
+  from { width: 300px }
   to { width: 100% }
 }
 
