@@ -131,8 +131,10 @@ div{
 
 .contact-section h2{
   color:white;
-  margin: 10px 200px;
-  font-size:40px;
+  margin: 10px 150px;
+  font-size:38px;
+  display: inline-block;
+  text-align: center;
 }
 
 .Icons{
