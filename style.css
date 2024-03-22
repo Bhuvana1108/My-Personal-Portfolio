@@ -131,19 +131,18 @@ div{
 
 .contact-section h2{
   color:white;
-  margin: 10px 150px;
+  margin: 10px 100px;
   font-size:38px;
-  display: inline-block;
   text-align: center;
 }
 
 .Icons{
-  margin:50px 100px;
+  margin:50px 150px;
   text-align: center;
   display:flex;
-  justify-content:flex-start;
-  justify-content: space-around;
-  
+  align-items: center;
+  justify-content: center;
+  gap:20px;
   
 }
 
@@ -151,7 +150,6 @@ div{
   border:1px solid azure;
   border-radius:60px;
   cursor:pointer;
-
 }
 
 .Icons img:hover{
