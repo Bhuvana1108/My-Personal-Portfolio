@@ -3,7 +3,7 @@
 
 *{
 
-  font-family: "Noto Sans", sans-serif;
+  font-family: var(--font-family);
     margin: 0;
     padding: 0;
     box-sizing:border-box;
@@ -15,6 +15,12 @@
 :root{
   --white: #F9F5F6;
   --black: #000000;
+  --nav-menu: #ECF9FF;
+  --nav-bg:#070F2B;
+  --icons:azure;
+  --icons-hover:mintcream;
+  --font-family: "Noto Sans", sans-serif;
+  --nav-font-family: "Poppins", sans-serif;
 }
 
 @media screen and (min-width:600px){
@@ -44,7 +50,7 @@ div{
 
 /*Navigation-menu*/
 .nav-menu{
-  background-color: #070F2B;
+  background-color: var(--nav-bg);
   height:60px;
   display:flex;
   justify-content: end;
@@ -55,14 +61,14 @@ div{
 .nav-menu a{
   text-decoration: none;
   color:var(--white);
-  font-family: "Poppins", sans-serif;
+  font-family: var(----nav-font-family);
   padding:0 30px 0 30px;
   font-size: 18pt;
   max-width: auto;
 }
 
 .nav-menu a:hover{
-  color:#ECF9FF;
+  color:var(--nav-menu);
   cursor:pointer;
 }
 
@@ -156,13 +162,13 @@ div{
 }
 
 .Icons img{
-  border:1px solid azure;
+  border:1px solid var(--icons);
   border-radius:60px;
   cursor:pointer;
 }
 
 .Icons img:hover{
- background-color:mintcream;
+ background-color:var(--icons-hover);
  zoom:1.2;
 }
 
