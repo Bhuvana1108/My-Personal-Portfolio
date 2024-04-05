@@ -10,6 +10,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
     outline: none;
+    overflow-y:auto;
 }
 
 :root{
