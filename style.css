@@ -39,7 +39,8 @@
 
 div{
   background-color: var(--black) !important;
-  height:max-content;
+  height:auto;
+  overflow-y: auto;
 }
 
 /* Home Page */
