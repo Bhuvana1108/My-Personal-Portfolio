@@ -188,7 +188,7 @@ div{
   text-align:center;
   font-size: 40px;
   font-weight:400;
-  font-family: var(-- --nav-font-family);
+  font-family: var(--nav-font-family);
 }
 
 .portfolio p{
@@ -198,6 +198,28 @@ div{
   font-family: var(--font-family);
 }
 
+.git-button{
+  margin:10px 50px;
+  width:30%;
+  height:30px;
+  border:1px solid white;
+  border-radius:20px;
+  cursor:pointer;
+  font-weight: bolder;
+}
+
+.live-button{
+  width:30%;
+  height:30px;
+  border:1px solid white;
+  border-radius:20px;
+  cursor:pointer;
+  font-weight: bolder;
+}
+
+.git-button .live-button:hover{
+    background-color:midnightblue;
+}
 
 
 
