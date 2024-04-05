@@ -143,7 +143,10 @@ div{
 
 .contact-section{
   padding:20px;
-  margin:200px;
+  margin:200px 0;
+  height:max-content;
+  display:flex;
+  align-items: flex-end;
 }
 
 .contact-section h2{
@@ -170,7 +173,6 @@ div{
 }
 
 .Icons img:hover{
- background-color:var(--icons-hover);
  zoom:1.2;
 }
 
