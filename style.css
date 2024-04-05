@@ -180,7 +180,7 @@ div{
   border:1px solid var(--white);
   margin:auto;
   border-radius:10px;
-  background-color: #070F2B;
+  background-color: var(--nav-bg);
   padding:50px;
 }
 
@@ -217,8 +217,14 @@ div{
   font-weight: bolder;
 }
 
-.git-button .live-button:hover{
-    background-color:midnightblue;
+ .live-button:hover{
+    background-color:var(--nav-bg);
+    color:var(--white);
+}
+
+.git-button:hover{
+  background-color:var(--nav-bg);
+  color:var(--white);
 }
 
 
