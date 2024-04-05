@@ -38,6 +38,7 @@
 
 div{
   background-color: var(--black) !important;
+  height:max-content;
 }
 
 /* Home Page */
@@ -139,10 +140,8 @@ div{
 }
 
 .contact-section{
-  width:auto;
-  height:auto;
   padding:20px;
-  margin:200px;
+  margin:200px 100px;
 }
 
 .contact-section h2{
