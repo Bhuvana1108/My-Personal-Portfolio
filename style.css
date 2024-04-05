@@ -139,9 +139,10 @@ div{
 }
 
 .contact-section{
-  width:100%;
+  width:auto;
   height:auto;
   padding:20px;
+  margin:200px;
 }
 
 .contact-section h2{
